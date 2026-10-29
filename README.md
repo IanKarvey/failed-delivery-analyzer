@@ -1,5 +1,11 @@
 # Failed Delivery & Redelivery Pattern Analyzer
 
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Tkinter](https://img.shields.io/badge/GUI-Tkinter-2B5B84)
+![Matplotlib](https://img.shields.io/badge/Charts-Matplotlib-11557C)
+![Tests](https://img.shields.io/badge/tests-79%20passing-2EA44F)
+![Platform](https://img.shields.io/badge/platform-Windows-0078D6?logo=windows&logoColor=white)
+
 **Finds out why deliveries fail, which areas struggle, and which parcels needed a second trip.**
 
 Every delivery attempt is recorded; the program turns the records into a success rate, success
@@ -9,6 +15,18 @@ Built by **Ian Karvey L. Manimtim** — 2026 · Python · Tkinter · Matplotlib 
 
 **▶ Try it in your browser:** [karveyportfolio.vercel.app/projects/failed-delivery-analyzer](https://karveyportfolio.vercel.app/projects/failed-delivery-analyzer/)
 (an interactive recreation with the GUI and terminal views)
+
+![Analysis tab](docs/screenshots/analysis.png)
+
+## Screenshots
+
+The desktop app running on the sample records in `sample_data/`.
+
+| Records — add, search and filter every attempt | Redelivery tracking — deliveries that needed a second trip |
+|---|---|
+| ![Records](docs/screenshots/records.png) | ![Redelivery tracking](docs/screenshots/redelivery-tracking.png) |
+
+![Charts — failed deliveries by reason](docs/screenshots/charts.png)
 
 ## Two interfaces, one engine
 
