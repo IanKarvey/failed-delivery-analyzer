@@ -1,0 +1,8 @@
+Delivery ID,Delivery Date,Delivery Area,Attempt Number,Failure Reason,Final Status
+D001,2026-10-01,Area A,1,Recipient unavailable,Failed
+D001,2026-10-02,Area A,2,None,Successful
+D002,2026-10-02,Area B,1,Incorrect address,Failed
+D003,2026-10-03,Area A,1,None,Successful
+D004,2026-10-04,Area C,1,Delivery postponed,Failed
+D004,2026-10-05,Area C,2,Recipient unavailable,Pending
+D005,2026-10-05,Area B,1,None,Successful

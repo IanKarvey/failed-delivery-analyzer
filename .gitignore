@@ -1,0 +1,14 @@
+# Build output — the Windows program is published under GitHub Releases instead
+dist/
+build/
+*.spec
+__pycache__/
+*.pyc
+
+# Records the program writes while running (sample_data/ holds the shipped sample)
+*/delivery_records.csv
+*.bak
+
+# Documents that are not part of the software
+*.docx
+*.pdf
